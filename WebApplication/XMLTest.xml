@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:sio="http://sio.experian.com/" targetNamespace="http://sio.experian.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://sio.experian.com/">
+      <xs:element name="Request">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="WSDesmaterializadoReq">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="1" maxOccurs="1" name="NumeroSolicitud">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="17" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element minOccurs="1" maxOccurs="1" name="NumeroID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:long">
+                        <xs:totalDigits value="17" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element minOccurs="1" maxOccurs="1" name="TipoID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:long">
+                        <xs:totalDigits value="2" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Response">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="WSDesmaterializadoResp">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" maxOccurs="1" name="respuesta" type="xs:long" />
+                  <xs:element minOccurs="0" maxOccurs="1" name="Solicitud">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element minOccurs="0" maxOccurs="1" name="SolicitudId" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CiudadDiligenciamiento" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="FechaCreacion" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="FechaUltActualizacion" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="FechaConsulta" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Alianza" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Almacen" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CodigoAsesor" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="LineaFinanciacion" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CuotaManejo" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="ValorComercial" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CattEntrega" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CiudadEntregaDomiciliosDesc" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="DireccionEntregaMCConsolidado" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="ValorSolicitado" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="ValorAprobado" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="DiaPago" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="ModalidadPago" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PlazoCredicompras" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PlazoMotos" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="TasaEASimulador" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PolizaDeudores" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CuotaCrediCompra" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Pagare" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="EstadoID" type="xs:long" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element minOccurs="0" maxOccurs="2" name="Cliente">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element minOccurs="0" maxOccurs="1" name="PrimerApellido" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="SegundoApellido" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PrimerNombre" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="SegundoNombre" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="TipoID" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="NumeroID" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="FechaExpedicionCedula" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="FechaNacimiento" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="LugarNacimiento" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Genero" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PersonasCargo" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="HijosConvivientes" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="EstadoCivil" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="TipoVivienda" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="TiempoVivienda" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Estrato" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="EstudiosRealizados" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Barrio" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="DireccionResidenciaConsolidado" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="CiudadResidenciaDesc" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Departamento" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="PaisResidencia" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="TelefonoResidencia" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="EnvioCorrespondencia" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Email" type="xs:string" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Celular" type="xs:decimal" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="OficioOProfesion" type="xs:long" />
+                        <xs:element minOccurs="0" maxOccurs="1" name="Laboral">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" maxOccurs="1" name="Ocupacion" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TipoContrato" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OtroTipoContrato" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="NombreEmpresa" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="CargoActividad" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="DireccionEmpresaConsolidado" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TiempoEmpresa" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="CiudadDesc" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TipoDeActividad" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TiempoActividad" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="ActividadEcPrincipal" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="FuncionPublica" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="VinculoPublico" type="xs:long" />
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" maxOccurs="1" name="Financiero">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" maxOccurs="1" name="IngresosAcPrincipal" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OtrosIngresos" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TotalIngresos" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TotalActivos" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TotalPasivos" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="GastosTotales" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OpMonedaExtranjera" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TipoOperacionME" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="EntidadOPME" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OtraOperacionME" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Ciudad" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TipoProducto" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Monto" type="xs:decimal" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OtroTipoDeProducto" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Moneda" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="CuentaBancaria" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="PaisDesc" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="NumeroDeCuenta" type="xs:string" />
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" maxOccurs="1" name="Sarlaft">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" maxOccurs="1" name="NivelRiesgo" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Certificacion" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="OrigenFondos" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="PaisOrigenFondosDesc" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="Detalle" type="xs:string" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="TipoContacto" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="LugarContacto" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="HoraContacto" type="xs:string" />
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" maxOccurs="1" name="Ref">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" maxOccurs="1" name="Familiar">
+                                <xs:complexType>
+                                  <xs:sequence>
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:decimal" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="CiudadDesc" type="xs:string" />
+                                  </xs:sequence>
+                                </xs:complexType>
+                              </xs:element>
+                              <xs:element minOccurs="0" maxOccurs="1" name="Personal">
+                                <xs:complexType>
+                                  <xs:sequence>
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:decimal" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="CiudadDesc" type="xs:string" />
+                                  </xs:sequence>
+                                </xs:complexType>
+                              </xs:element>
+                              <xs:element minOccurs="0" maxOccurs="1" name="Comercial">
+                                <xs:complexType>
+                                  <xs:sequence>
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Nombre" type="xs:string" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="Telefono" type="xs:decimal" />
+                                    <xs:element minOccurs="0" maxOccurs="1" name="CiudadDesc" type="xs:string" />
+                                  </xs:sequence>
+                                </xs:complexType>
+                              </xs:element>
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" maxOccurs="1" name="Activos">
+                          <xs:complexType>
+                            <xs:sequence>
+                              <xs:element minOccurs="0" maxOccurs="1" name="ActivosNumeroVehiculos" type="xs:long" />
+                              <xs:element minOccurs="0" maxOccurs="1" name="NumeroBienes" type="xs:long" />
+                            </xs:sequence>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element minOccurs="0" maxOccurs="1" name="ClientePep" type="xs:string" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element minOccurs="0" maxOccurs="1" name="Masivas">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element minOccurs="0" maxOccurs="1" name="NumeroCampana" type="xs:long" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="SoapRequest">
+    <wsdl:part name="parameters" element="sio:Request" />
+  </wsdl:message>
+  <wsdl:message name="SoapResponse">
+    <wsdl:part name="parameters" element="sio:Response" />
+  </wsdl:message>
+  <wsdl:portType name="SIOType">
+    <wsdl:operation name="WSDesmaterializado">
+      <wsdl:input message="sio:SoapRequest" />
+      <wsdl:output message="sio:SoapResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SIOBindingWSDesmaterializado" type="sio:SIOType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WSDesmaterializado">
+      <soap:operation soapAction="WSDesmaterializado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SIO">
+    <wsdl:port name="SIO" binding="sio:SIOBindingWSDesmaterializado">
+      <soap:address location="http://10.169.4.242:8092/SIO" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

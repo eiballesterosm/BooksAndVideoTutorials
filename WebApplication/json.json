@@ -1,0 +1,996 @@
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#users('83517760-12bd-4ac3-a7a6-7c8a91fbdeae')/calendars('AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAAAAEGAAAwBpBehSqGSZG-MZIZSJl7AAAy2TVAAAA%3D')/events",
+  "@odata.nextLink": "https://graph.microsoft.com/v1.0/me/calendars/AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAAAAEGAAAwBpBehSqGSZG-MZIZSJl7AAAy2TVAAAA=/events?$skip=50",
+  "value": [
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVKw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVLAAA=",
+      "createdDateTime": "2019-10-08T13:56:25.315585Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:01.6288202Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVKw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E008000000001534702BE07DD5010000000000000000100000007FB43DD6DC8CF74BBBBAD4909F053EC2",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. ",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVLAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:40:50.4545424Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-30T00:10:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-30T01:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVLw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVKAAA=",
+      "createdDateTime": "2019-10-08T13:55:33.0039691Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:01.8666838Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVLw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000BB536C0CE07DD501000000000000000010000000B4CFFBFBB3B1EA4C91CE219520881531",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. ",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVKAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:40:55.2318112Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Constru - Ensambles, S.A. INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-29T22:35:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-29T23:55:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVMw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVJAAA=",
+      "createdDateTime": "2019-10-08T13:54:35.0774146Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:02.0685677Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVMw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E008000000009D1DDEE9DF7DD50100000000000000001000000012D973F3E8DE344B855229BAB864DE02",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVJAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:41:00.9845223Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-29T21:00:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-29T22:20:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVNw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVIAAA=",
+      "createdDateTime": "2019-10-08T13:53:39.9901574Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:02.3024335Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVNw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000EC02FFC8DF7DD5010000000000000000100000000DBD0EAE7C607B4AADD0183D06F821AC",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. ",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. INALDE - IPADE",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVIAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:41:06.2325215Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. INALDE - IPADE<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-30T15:20:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-30T16:40:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - IPADE",
+        "locationType": "default",
+        "uniqueId": "INALDE - IPADE",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - IPADE",
+          "locationType": "default",
+          "uniqueId": "INALDE - IPADE",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVOw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVHAAA=",
+      "createdDateTime": "2019-10-08T13:52:50.3457459Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:02.5692802Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVOw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000CB4094ABDF7DD501000000000000000010000000E08FAB57CDA1F84A9AA3A9EF9536A4D6",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. ",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. INALDE - IPADE",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVHAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:41:11.183691Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Constru - Ensambles, S.A. INALDE - IPADE<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-30T13:45:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-30T15:05:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - IPADE",
+        "locationType": "default",
+        "uniqueId": "INALDE - IPADE",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - IPADE",
+          "locationType": "default",
+          "uniqueId": "INALDE - IPADE",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTFVPw==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECqFVGAAA=",
+      "createdDateTime": "2019-10-08T13:51:47.9465633Z",
+      "lastModifiedDateTime": "2019-10-11T18:42:02.7601713Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTFVPw==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E0080000000025614985DF7DD501000000000000000010000000A7C2688CD753A1418C4ACE2F1F7438DE",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas INALDE - IPADE",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECqFVGAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T12:41:16.8604447Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Baria Planning Solutions Inc.: Asegurar el proceso de ventas INALDE - IPADE<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-30T12:10:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-30T13:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - IPADE",
+        "locationType": "default",
+        "uniqueId": "INALDE - IPADE",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - IPADE",
+          "locationType": "default",
+          "uniqueId": "INALDE - IPADE",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABDPO0dg==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECO7U7AAA=",
+      "createdDateTime": "2019-10-04T16:18:28.4761124Z",
+      "lastModifiedDateTime": "2019-10-21T15:07:08.117028Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABDPO0dg==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000C7A78A58CF7AD501000000000000000010000000F5EC637D5B1B43409F8C5F28B5599E52",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Bayonne Packaging Inc.",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Bayonne Packaging Inc. INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECO7U7AAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T20:27:10.1365702Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: Bayonne Packaging Inc. INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-02T12:10:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-02T13:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABDPO0eg==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAECO7U6AAA=",
+      "createdDateTime": "2019-10-04T15:40:13.4673124Z",
+      "lastModifiedDateTime": "2019-10-21T15:07:08.2709422Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABDPO0eg==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000EDAAF9FFC97AD5010000000000000000100000008D46DC3DD376F442AF5D30A70CD84EAF",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Bayonne Packaging Inc.",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Bayonne Packaging Inc. INALDE - IPADE",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAECO7U6AAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T20:27:15.4934876Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 1 - Caso: Bayonne Packaging Inc. INALDE - IPADE<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-11-02T13:45:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-11-02T15:05:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - IPADE",
+        "locationType": "default",
+        "uniqueId": "INALDE - IPADE",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - IPADE",
+          "locationType": "default",
+          "uniqueId": "INALDE - IPADE",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTHWUg==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAEANZtkAAA=",
+      "createdDateTime": "2019-10-02T19:24:30.480613Z",
+      "lastModifiedDateTime": "2019-10-12T21:56:09.2546565Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTHWUg==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000A7EDFBF55679D5010000000000000000100000006010815F6271D9408D0115F2623D9444",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: National Cranberry Cooperative,1996",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: National Cranberry Cooperative,1996 INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAEANZtkAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-11T21:21:56.2426279Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: National Cranberry Cooperative,1996 INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-10-12T13:45:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-10-12T15:05:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    },
+    {
+      "@odata.etag": "W/\"MAaQXoUqhkmRvzGSGUiZewABBTHWVg==\"",
+      "id": "AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG-MZIZSJl7AAAy2RncAAAwBpBehSqGSZG-MZIZSJl7AAEANZtgAAA=",
+      "createdDateTime": "2019-10-02T19:03:59.5560834Z",
+      "lastModifiedDateTime": "2019-10-12T21:56:09.4445474Z",
+      "changeKey": "MAaQXoUqhkmRvzGSGUiZewABBTHWVg==",
+      "categories": [],
+      "originalStartTimeZone": "SA Pacific Standard Time",
+      "originalEndTimeZone": "SA Pacific Standard Time",
+      "iCalUId": "040000008200E00074C5B7101A82E00800000000B9CF92245479D501000000000000000010000000D2F61A42B483A84C8F9C7889BBC3773C",
+      "reminderMinutesBeforeStart": 15,
+      "isReminderOn": false,
+      "hasAttachments": false,
+      "subject": "\ud83c\udf93 MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: NASCAR: Every second counts - helping win from the pits",
+      "bodyPreview": "MBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: NASCAR: Every second counts - helping win from the pits INALDE - HARVARD",
+      "importance": "normal",
+      "sensitivity": "normal",
+      "isAllDay": false,
+      "isCancelled": false,
+      "isOrganizer": false,
+      "responseRequested": true,
+      "seriesMasterId": null,
+      "showAs": "busy",
+      "type": "singleInstance",
+      "webLink": "https://outlook.office365.com/owa/?itemid=AAMkADc0YTQxNjI4LTFiMGYtNGJlNS1iMzdlLTY3MDYwNWIzYjZhMQBGAAAAAAB6lP5KB8XuT5APdOiEuazzBwAwBpBehSqGSZG%2FMZIZSJl7AAAy2RncAAAwBpBehSqGSZG%2FMZIZSJl7AAEANZtgAAA%3D&exvsurl=1&path=/calendar/item",
+      "onlineMeetingUrl": null,
+      "recurrence": null,
+      "responseStatus": {
+        "response": "accepted",
+        "time": "2019-10-02T20:44:12.2245043Z"
+      },
+      "body": {
+        "contentType": "html",
+        "content": "<html>\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n<meta content=\"text/html; charset=utf-8\">\r\n</head>\r\n<body>\r\nMBA FS 19-21 - POT I - Secci\u00f3n 2 - Caso: NASCAR: Every second counts - helping win from the pits INALDE - HARVARD<br>\r\n<br>\r\n</body>\r\n</html>\r\n"
+      },
+      "start": {
+        "dateTime": "2019-10-12T00:10:00.0000000",
+        "timeZone": "UTC"
+      },
+      "end": {
+        "dateTime": "2019-10-12T01:30:00.0000000",
+        "timeZone": "UTC"
+      },
+      "location": {
+        "displayName": "INALDE - HARVARD",
+        "locationType": "default",
+        "uniqueId": "INALDE - HARVARD",
+        "uniqueIdType": "private"
+      },
+      "locations": [
+        {
+          "displayName": "INALDE - HARVARD",
+          "locationType": "default",
+          "uniqueId": "INALDE - HARVARD",
+          "uniqueIdType": "private"
+        }
+      ],
+      "attendees": [
+        {
+          "type": "required",
+          "status": {
+            "response": "none",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Planeaci\u00f3n Acad\u00e9mica",
+            "address": "planeacionacademica@inalde.edu.co"
+          }
+        },
+        {
+          "type": "required",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Gustavo Felipe Cotrino Garz\u00f3n",
+            "address": "gustavo.cotrino@inalde.edu.co"
+          }
+        },
+        {
+          "type": "optional",
+          "status": {
+            "response": "accepted",
+            "time": "0001-01-01T00:00:00Z"
+          },
+          "emailAddress": {
+            "name": "Cotrino, Felipe",
+            "address": "felipe.cotrino@hp.com"
+          }
+        }
+      ],
+      "organizer": {
+        "emailAddress": {
+          "name": "Planeaci\u00f3n Acad\u00e9mica",
+          "address": "planeacionacademica@inalde.edu.co"
+        }
+      }
+    }
+  ]
+}
