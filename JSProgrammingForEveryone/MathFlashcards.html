@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Math Flash Cards. Eduardo Isaac Ballesteros</title>
+    <script src="Scripts/mathflashcards.js">
+
+    </script>
+</head>
+<body>
+    <center>
+        <h1 id="title">
+            <script>
+                var numOne = Math.floor(Math.random() * 10) + 1;
+                var numTwo = Math.floor(Math.random() * 10) + 1;
+                document.write(numOne + " + " + numTwo);
+                var correctAnswer = numOne + numTwo;
+            </script>
+        </h1>
+        <p>Hello, please enter answer:</p>
+
+        <input id="answer" />
+        <button type="button" onclick="Addition()">Submit</button>
+        <input type="button" value="Get A New Card" onclick="NewCard()" />
+        <br /><br />
+
+        <p id="output"></p>
+
+    </center>
+</body>
+</html>
