@@ -9,6 +9,8 @@ namespace CSharpProgrCook
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine("Manipulate the Contents of a String Efficiently\nEduardo Isaac Ballesteros Muñoz\n");
+
             string normalString = "EDUARDO ISAAC BALLESTEROS";
             string reverseString = ReverseString(normalString);
             System.Console.WriteLine(string.Concat("NORMAL: ", normalString));
@@ -38,6 +40,8 @@ namespace CSharpProgrCook
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Encode a String Using Alternate Character Encoding\nEduardo Isaac Ballesteros Muñoz\n");
+
             CharacterEncoding();
         }
 
@@ -76,6 +80,8 @@ namespace CSharpProgrCook
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Convert Basic Value Types to Byte Arrays\nEduardo Isaac Ballesteros Muñoz\n");
+
             ConvertBasicValueTypesToByteArray();
             System.Console.Read();
         }
@@ -120,12 +126,13 @@ namespace CSharpProgrCook
             System.Console.WriteLine(System.BitConverter.ToInt32(b, 0));
         }
     }
-
-
+    
     public class EncodeBinaryDataAsText
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Encode Binary Data as Text\nEduardo Isaac Ballesteros Muñoz\n");
+
             string normalText = "EDUARDO ISAAC BALLESTEROS MUÑOZ";
             System.Console.WriteLine(normalText);
             string base64String = StringToBase64(normalText);
@@ -188,6 +195,8 @@ namespace CSharpProgrCook
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Validate Input Using Regular Expressions\nEduardo Isaac Ballesteros Muñoz\n");
+
             string validEmail = "eduballesteros@gmail.com";
             System.Console.WriteLine(validEmail);
             System.Console.WriteLine("IsValid:" + ValidateInput(@"^[\w-]+@([\w-]+\.)+[\w-]+$", validEmail));
@@ -231,6 +240,8 @@ namespace CSharpProgrCook
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Create Dates and Times from Strings\nEduardo Isaac Ballesteros Muñoz\n");
+
             // 01/09/2013 00:00:00
             System.DateTime dt1 = System.DateTime.Parse("Sep 2013");
             System.Console.WriteLine(dt1);
@@ -303,5 +314,45 @@ namespace CSharpProgrCook
             }
         }
     }
+
+    public class AddSubtractCompareDatesAndTimes
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Add, Subtract, and Compare Dates and Times\nEduardo Isaac Ballesteros Muñoz\n");
+
+            //TimeSpan(int hours, int minutes, int seconds);
+            //Create a TimeSpan representing 2 hour 59 minutes 59 seconds
+            TimeSpan timeSpan1 = new TimeSpan(2, 59, 59);
+            Console.WriteLine("2 hour 59 minutes 59 seconds " + timeSpan1);
+
+            //TimeSpan(int days, int hours, int minutes, int seconds)
+            //Create a TimeSpan representing 2.5 days
+            TimeSpan timeSpan2 = new TimeSpan(2, 12, 0, 0);
+            Console.WriteLine("2.5 days " + timeSpan2);
+
+            //TimeSpan(int days, int hours, int minutes, int seconds)
+            //Create a TimeSpan representing 4.5 days
+            TimeSpan timeSpan3 = new TimeSpan(4, 12, 0, 0);
+            Console.WriteLine("4.5 days " + timeSpan3);
+
+            //Create a TimeSpan representing one week
+            TimeSpan timeSpanOneWeek = timeSpan2 + timeSpan3;
+            Console.WriteLine("One week " + timeSpanOneWeek);
+
+            //Create a DateTime with the current date and time
+            DateTime dtNow = DateTime.Now;
+            Console.WriteLine("Current date and time " + dtNow);
+
+            //Create a DateTime representing 1 week ago
+            DateTime dtOneWeekAgo = dtNow - timeSpanOneWeek;
+            Console.WriteLine("1 week ago " + dtOneWeekAgo);
+
+            //Create a DateTime representing 1 week in the future
+            DateTime dtOneWeekFuture = dtNow + timeSpanOneWeek;
+            Console.WriteLine("1 week in the future " + dtOneWeekFuture);
+        }
+    }
+
 
 }
