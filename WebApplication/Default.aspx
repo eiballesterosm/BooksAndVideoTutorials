@@ -6,8 +6,8 @@
         <h1>ASP.NET</h1>
         <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
         <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-        
-        
+
+
     </div>
 
     <div class="row">
@@ -45,5 +45,68 @@
     </div>
 
     </div>
+
+    <table style="border: 1px solid; width: 100%">
+        <tr style="font-weight:bold; text-align:center">
+            <td>Operator</td>
+            <td>TimeSpan</td>
+            <td>DateTime</td>
+        </tr>
+        <tr>
+            <td>Assignment (=)</td>
+            <td>Because TimeSpan is a structure, assignment returns a copy and not a reference</td>
+            <td>Because DateTime is a structure, assignment returns a copy and not a reference</td>
+        </tr>
+        <tr>
+            <td>Addition (+)</td>
+            <td>Adds two TimeSpan instances</td>
+            <td>Adds a TimeSpan to a DateTime</td>
+        </tr>
+        <tr>
+            <td>Subtraction (-)</td>
+            <td>Subtracts one TimeSpan instance from another</td>
+            <td>Subtracts a TimeSpan or a DateTime from a DateTime</td>
+        </tr>
+        <tr>
+            <td>Equality (==)</td>
+            <td>Compares two TimeSpan instances and returns true if they are equal</td>
+            <td>Compares two DateTime instances and returns true if they are equal</td>
+        </tr>
+        <tr>
+            <td>Inequality (!=)</td>
+            <td>Compares two TimeSpan instances and returns true if they aren't equal</td>
+            <td>Compares two DateTime instances and returns true if they aren't equal</td>
+        </tr>
+        <tr>
+            <td>Greater Than (>)</td>
+            <td>Determines if one TimeSpan is greater than another TimeSpan</td>
+            <td>Determines if one DateTime is greater than another DateTime</td>
+        </tr>
+        <tr>
+            <td>Greater Than or Equal(>=)</td>
+            <td>Determines if one TimeSpan is greater than or equal to another TimeSpan</td>
+            <td>Determines if one DateTime is greater than or equal to another DateTime</td>
+        </tr>
+        <tr>
+            <td>Less Than (<)</td>
+            <td>Determines if one TimeSpan is less than another TimeSpan</td>
+            <td>Determines if one DateTime is less than another DateTime</td>
+        </tr>
+        <tr>
+            <td>Less Than or Equal (<=)</td>
+            <td>Determines if one TimeSpan is less than or equal to another TimeSpan</td>
+            <td>Determines if one DateTime is less than or equal to another DateTime</td>
+        </tr>
+        <tr>
+            <td>Unary Negation (-)</td>
+            <td>Returns a TimeSpan with a negated value of the specified TimeSpan</td>
+            <td>Not Supported/td>
+        </tr>
+        <tr>
+            <td>Unary Plus (+)</td>
+            <td>Returns the TimeSpan specified</td>
+            <td>Not Supported</td>
+        </tr>
+    </table>
 
 </asp:Content>
