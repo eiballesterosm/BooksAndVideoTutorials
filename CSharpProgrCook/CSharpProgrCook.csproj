@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpProgrCook.AddSubtractCompareDatesAndTimes</StartupObject>
+    <StartupObject>CSharpProgrCook.CopyACollectionToAnArray</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>

@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Net.Http;
 using System.Text;
 
@@ -351,6 +352,96 @@ namespace CSharpProgrCook
             //Create a DateTime representing 1 week in the future
             DateTime dtOneWeekFuture = dtNow + timeSpanOneWeek;
             Console.WriteLine("1 week in the future " + dtOneWeekFuture);
+        }
+    }
+
+    public class SortAnArrayOrAnArrayList
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Sort an Array or an ArrayList\nEduardo Isaac Ballesteros Muñoz\n");
+
+            //Create a new array and populate it
+            int[] array = { 4, 2, 9, 3 };
+
+            //Sort the array
+            Array.Sort(array);
+
+            Console.WriteLine("Sort the Array");
+
+            //Display the contents of the sorted array
+            foreach (int item in array)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine("\nSort the ArrayList");
+
+            //Create a new ArrayList and populate it
+            ArrayList list = new ArrayList();
+            list.Add("Eduardo");
+            list.Add("Isaac");
+            list.Add("David");
+            list.Add("Natalia");
+            list.Add("Claudia");
+            list.Add("Rocío");
+            list.Add("eduardo isaac");
+
+            //Sort the ArrayList
+            list.Sort();
+
+            foreach (string item in list)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+
+    public class CopyACollectionToAnArray
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Copy a Collection to an Array\nEduardo Isaac Ballesteros Muñoz\n");
+
+            //Create a new ArrayList and populate it
+            ArrayList list = new ArrayList();
+            list.Add("Eduardo");
+            list.Add("Isaac");
+            list.Add("Ballesteros");
+            list.Add("Muñoz");
+
+            //Create an string array and use the ICollection.CopyTo method to copy
+            //the contents of the ArrayList
+            string[] array1 = new string[list.Count];
+            list.CopyTo(array1);
+
+            Console.WriteLine("CopyTo");
+
+            foreach (string item in array1)
+            {
+                Console.WriteLine(item);
+            }
+
+            //Use ArrayList.ToArray to create an object[] from the contents of the collection
+            object[] array2 = list.ToArray();
+
+            Console.WriteLine("\nToArray");
+
+            foreach (string item in array2)
+            {
+                Console.WriteLine(item);
+            }
+
+            //Use ArrayList.ToArray to create a strongly typed string[] from the contents of the collection
+            //string[] array3 = (string[])list.ToArray(Type.GetType("System.String"));
+            string[] array3 = (string[])list.ToArray(typeof(string));
+
+            Console.WriteLine("\nToArray");
+
+            foreach (string item in array3)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 
